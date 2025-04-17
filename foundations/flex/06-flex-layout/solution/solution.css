@@ -43,6 +43,7 @@ button {
   justify-content: center;
   flex-direction: column;
   gap: 16px;
+  flex-basis: auto;
 }
 
 a {
@@ -50,8 +51,7 @@ a {
   text-decoration: none;
 }
 
-.header,
-.footer {
+.header{
   display: flex;
   justify-content: space-between;
   padding: 16px;
@@ -59,6 +59,9 @@ a {
 
 .footer {
   background: #eee;
+  max-height: 40px;
+  flex-basis: 100px;
+  
 }
 
 ul {

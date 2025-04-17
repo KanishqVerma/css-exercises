@@ -18,6 +18,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px;
 }
 
 input {
@@ -43,6 +44,7 @@ ul{
   margin: 10px;
   padding: 10px;
   display: flex;
+  list-style-type: none;
 }
 
 li{
@@ -55,8 +57,29 @@ a{
   color: grey;
 }
 
+.footer{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(230, 230, 230);
+  max-height: 60px;
+}
+
+.left-footer{
+  display: flex;
+  margin-left: 0px;
+  margin-right: auto;
+}
+
+.right-footer{
+  display: flex;
+}
+
 .content{
   display: flex;
+  justify-content: center;
   flex-direction: column;
-  justify-content: 
+  align-items: center;
+  margin-bottom: 0px;
+  gap: 16px;
+  flex-basis: 600px;
 }
